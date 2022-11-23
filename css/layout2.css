@@ -1,0 +1,136 @@
+@charset "utf-8";
+
+/* reset */
+a { text-decoration: none; color: inherit; }
+body { font:normal 12px "돋움","Dotum",sans-serif; }
+html, body { width: 100%; height: 100%;  }
+
+/* wrap */
+#wrap { width: 100%; overflow: hidden; } /* 원래는 width100% height100%으로해야함. 임시로이렇게해둔것 */
+#top_wrap h2 { margin-left: 20px; margin-top: 20px; float: left; }
+#gnb li { float: right; }
+#gnb li a { float: right; margin-top: 20px; margin-left: 10px; }
+#gnb li a img { width: 35px; height: 35px;  }
+
+
+.all_menu { margin-top: 20px; }
+.all_menu:hover { cursor: pointer; }
+.all_menu img { width: 35px; height: 35px; }
+.menu_wrap { background-color: rgba(255,255,255); width: 100%; height: 1950px; position: absolute; top: 0; left: -100%; z-index: 2; }
+.menu { padding-top: 20%;  }
+.menu li { line-height: 2em; text-indent: 2em; font-weight: bold; font-size: 40px; font-family: "Noto Serif KR"; letter-spacing: 5px;   }
+.menu li a { color: #333;  }
+
+.menu1 a { /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,dbb5a4+20,dbb5a4+50,dbb5a4+77,000000+100 */
+	background: rgb(0,0,0); /* Old browsers */
+	background: -moz-linear-gradient(left,  rgb(0,0,0) 0%, rgb(219,181,164) 20%, rgb(219,181,164) 50%, rgb(219,181,164) 77%, rgb(0,0,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  rgb(0,0,0) 0%,rgb(219,181,164) 20%,rgb(219,181,164) 50%,rgb(219,181,164) 77%,rgb(0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  rgb(0,0,0) 0%,rgb(219,181,164) 20%,rgb(219,181,164) 50%,rgb(219,181,164) 77%,rgb(0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	-webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+	 }
+
+.menu2 a {background: rgb(0,0,0);
+	background: -moz-linear-gradient(left,  rgb(0,0,0) 0%, rgb(219,181,164) 20%, rgb(219,181,164) 50%, rgb(219,181,164) 77%, rgb(0,0,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  rgb(0,0,0) 0%,rgb(219,181,164) 20%,rgb(219,181,164) 50%,rgb(219,181,164) 77%,rgb(0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  rgb(0,0,0) 0%,rgb(219,181,164) 20%,rgb(219,181,164) 50%,rgb(219,181,164) 77%,rgb(0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+	}
+.menu3 a {/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,dbb5a4+20,dbb5a4+50,dbb5a4+77,000000+100 */
+	background: rgb(0,0,0); /* Old browsers */
+	background: -moz-linear-gradient(45deg,  rgb(0,0,0) 0%, rgb(219,181,164) 20%, rgb(219,181,164) 50%, rgb(219,181,164) 77%, rgb(0,0,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg,  rgb(0,0,0) 0%,rgb(219,181,164) 20%,rgb(219,181,164) 50%,rgb(219,181,164) 77%,rgb(0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg,  rgb(0,0,0) 0%,rgb(219,181,164) 20%,rgb(219,181,164) 50%,rgb(219,181,164) 77%,rgb(0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	-webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+	 }
+.menu4 a {/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,dbb5a4+20,dbb5a4+50,dbb5a4+77,000000+100 */
+	background: rgb(0,0,0); /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  rgb(0,0,0) 0%, rgb(219,181,164) 20%, rgb(219,181,164) 50%, rgb(219,181,164) 77%, rgb(0,0,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg,  rgb(0,0,0) 0%,rgb(219,181,164) 20%,rgb(219,181,164) 50%,rgb(219,181,164) 77%,rgb(0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg,  rgb(0,0,0) 0%,rgb(219,181,164) 20%,rgb(219,181,164) 50%,rgb(219,181,164) 77%,rgb(0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	-webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+	 }
+
+.menu_close { position: absolute; top: 10px; right: 20px; z-index: 3; font-size: 30px; }
+
+/* container */
+#container { clear: both; }
+
+.main1 {  width: 100%; min-width: 340px; border-bottom: 1px solid #666; position: relative;  margin-bottom: 1%; }/* 기준을 잡아야 된다!! */
+.main1 p { text-align: center; }
+.main1 img { max-width: 100%;   }
+.btn { position: absolute; top: 90%; left: 45%;  }
+.btn img:hover { cursor: pointer; }
+.btn img:first-child { margin-right: 10px; }
+
+
+/* main2 */
+.main2 {  height: 100%; width: 100%; min-width: 340px; position: relative;  margin-top: 1%;   }
+.main2 > p { text-align: center; }
+.main2 img { max-width: 100%;  }
+.main2 h3 { color: #fff; font-size: 25px; font-family: "돋움","Dotum",sans-serif; position: absolute; top: 10%; left: 5%; }
+.main2 p span { color: #e3e0e0; font-size: 15px; font-family: "돋움","Dotum",sans-serif; position: absolute; top: 25%; left: 5%; text-align: left;   }
+.img_list { color: #e3e0e0; position: absolute; top: 70%; left: 5%; font-size: 18px; font-family: "돋움","Dotum",sans-serif; }
+.main2 ul li a img { width: 30px; height: 30px; float: left; margin-right: 50px; top:160%; left: 2%; }
+.main2 ul li a img.icon1 { position: absolute; top: 82%; left: 5%; }
+.main2 ul li a img.icon2 { position: absolute; top: 82%; left: 20%; }
+
+/* main3 */
+.main3 { height: 100%; width: 100%; min-width:340px;  position: relative; margin-bottom: 20px; }
+.main3 > p { text-align: center; }
+.main3 img { max-width: 100%;  }
+.main3 h3 { color: #fff; font-size: 25px; font-family: "돋움","Dotum",sans-serif; position: absolute; top: 10%; left: 5%;  }
+.main3 p span { color: #e3e0e0; font-size: 15px; font-family: "돋움","Dotum",sans-serif; position: absolute; top: 25%; left: 5%; text-align: left;  }
+.img_list2 { color: #e3e0e0; font-size: 18px; font-family: "돋움","Dotum",sans-serif; position: absolute; top: 55%; left: 5%; border-bottom: 2px solid #fff; }
+.img_list2:hover { color: #a3877b; font-weight: bold; transition: all 0.5s; }
+
+/* main4 */
+.main4 { clear: both;  min-width: 340px; height: 690px;  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,b1acaa+5,eaeaea+8,eaeaea+8,eaeaea+50,eaeaea+92,b1acaa+95,000000+100 */
+	background: rgb(0,0,0); /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  rgb(0,0,0) 0%, rgb(177,172,170) 5%, rgb(234,234,234) 8%, rgb(234,234,234) 8%, rgb(234,234,234) 50%, rgb(234,234,234) 92%, rgb(177,172,170) 95%, rgb(0,0,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg,  rgb(0,0,0) 0%,rgb(177,172,170) 5%,rgb(234,234,234) 8%,rgb(234,234,234) 8%,rgb(234,234,234) 50%,rgb(234,234,234) 92%,rgb(177,172,170) 95%,rgb(0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg,  rgb(0,0,0) 0%,rgb(177,172,170) 5%,rgb(234,234,234) 8%,rgb(234,234,234) 8%,rgb(234,234,234) 50%,rgb(234,234,234) 92%,rgb(177,172,170) 95%,rgb(0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	;
+	margin: 0 auto;
+	position: relative;
+	border-top: 2px solid #f3f3f3;
+	margin-top: 20px;
+}
+.main4 h3 { display: none;}
+.main4 p.m4txt1 { font-size: 25px; color: #666; line-height: 50px; padding-left: 15px; letter-spacing: 1px; }
+.mian4 p.m4txt1 strong { font-family: "HCR Dotum"; font-weight: bold; }
+.main4 p.m4txt2 { font-size: 15px; font-family: "Gulim"; color: #8a8a8a; padding-left: 15px; letter-spacing: 1px; }
+.main4 p.m4txt2 span { color: #000; text-decoration: underline; }
+.main4 p.m4txt2 img:hover { cursor: pointer; }
+.main4 p img { width: 25px; height: 25px; margin-right: 5px; }
+
+.main4 form p.m4txt3 { background-color: #fff; width: 85%; height: 40px; margin-bottom: 15px; font-size: 15px; line-height: 40px; font-family: "Malgun Gothic"; margin-left: 15px; }
+.main4 form p.m4txt3:first-child { margin-top: 50px;}
+.main4 form p.m4txt3 label { padding-left: 10px; display: inline-block; width: 20%;  }
+.main4 form p.m4txt3 input {  width: 70%; height: 50%; font-size: 20px; border: none;  margin-left: 3%; }
+.main4 span { color: red;}
+
+.main4 textarea { resize: none; width: 85%;  height: 234px; margin-left: 15px; }
+.main4 .onlineBtn { margin-left: 30px; margin-top: 40px; }
+
+.main5 { clear: both; width: 310px;  height: 100%; /* height: 150px; */  position: relative; border: 1px solid #c2c2c2; border-radius: 10px; margin:5px auto; } /* width크기조정할것. 이상하게나옴 */
+.main5 address { font-style: normal; font-size: 12px; font-family: "돋움","Dotum",sans-serif; color: #8b8b8b; line-height: 20px; letter-spacing: 1px; padding-top: 5px; padding-left: 15px;}
+
+footer {  width: 100%; height: 100px; margin-bottom: 10px; padding-bottom: 10px; }
+footer p { font-size: 20px; font-family: "Noto Serif KR";font-weight: bold;  letter-spacing: -1px; line-height: 20px; text-align: center; margin-bottom: 10px;}
+footer p img { width: 35px; height: 35px; }
+footer div { width: 100%; padding-left: 13%;  }
+
+.ftf_btn { border: 1px solid #c2c2c2; font-size: 12px; font-family: "NOto Serif KR"; color: #8b8b8b; border-radius: 5px; height: 40px; width: 120px; margin-right: 5%; }
+
+/* gototop */
+.gototop{width: 30px; height: 30px; position: fixed; right: 0; bottom: 0; background-color:#000; text-align: center; line-height: 30px; border: 1px solid #fff; border-radius: 30px;}
+.gototop a{color: #fff; display: block; }

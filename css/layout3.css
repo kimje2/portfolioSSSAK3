@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+/* reset */
+a { text-decoration: none; color: inherit; }
+body { font:normal 12px "돋움","Dotum",sans-serif;
+     }
+html, body { width: 100%; height: 100%;  }
+
+/* wrap */
+#wrap { width: 100%; overflow: hidden;   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,969696+11,e7e7e7+50,969696+89,000000+100 */
+    background: rgb(50, 50,50); /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  rgb(50,50,50) 0%, rgb(150,150,150) 11%, rgb(231,231,231) 50%, rgb(150,150,150) 89%, rgb(50,50,50) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  rgb(50,50,50) 0%,rgb(150,150,150) 11%,rgb(231,231,231) 50%,rgb(150,150,150) 89%,rgb(50,50,50) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  rgb(50,50,50) 0%,rgb(150,150,150) 11%,rgb(231,231,231) 50%,rgb(150,150,150) 89%,rgb(50,50,50) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */} 
+#top_wrap h2 { margin-left: 20px; margin-top: 30px; float: left; }
+#gnb li { float: right; }
+#gnb li a { float: right; margin-top: 20px; margin-left: 10px; }
+#gnb li a img { width: 35px; height: 35px;  }
+
+.all_menu { margin-top: 20px; }
+.all_menu:hover { cursor: pointer; }
+.all_menu img { width: 35px; height: 35px; }
+.menu_wrap { background-color: rgba(255,255,255); width: 100%; height: 1950px; position: absolute; top: 0; left: -100%; z-index: 2; }
+.menu { padding-top: 20%;  }
+.menu li { line-height: 2em; text-indent: 2em; font-weight: bold; font-size: 40px; font-family: "Noto Serif KR"; letter-spacing: 5px;   }
+.menu li a { color: #333;  }
+
+.menu1 a { /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,dbb5a4+20,dbb5a4+50,dbb5a4+77,000000+100 */
+	background: rgb(0,0,0); /* Old browsers */
+	background: -moz-linear-gradient(left,  rgb(0,0,0) 0%, rgb(219,181,164) 20%, rgb(219,181,164) 50%, rgb(219,181,164) 77%, rgb(0,0,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  rgb(0,0,0) 0%,rgb(219,181,164) 20%,rgb(219,181,164) 50%,rgb(219,181,164) 77%,rgb(0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  rgb(0,0,0) 0%,rgb(219,181,164) 20%,rgb(219,181,164) 50%,rgb(219,181,164) 77%,rgb(0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	-webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+	 }
+
+.menu2 a {background: rgb(0,0,0);
+	background: -moz-linear-gradient(left,  rgb(0,0,0) 0%, rgb(219,181,164) 20%, rgb(219,181,164) 50%, rgb(219,181,164) 77%, rgb(0,0,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  rgb(0,0,0) 0%,rgb(219,181,164) 20%,rgb(219,181,164) 50%,rgb(219,181,164) 77%,rgb(0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  rgb(0,0,0) 0%,rgb(219,181,164) 20%,rgb(219,181,164) 50%,rgb(219,181,164) 77%,rgb(0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+	}
+.menu3 a {/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,dbb5a4+20,dbb5a4+50,dbb5a4+77,000000+100 */
+	background: rgb(0,0,0); /* Old browsers */
+	background: -moz-linear-gradient(45deg,  rgb(0,0,0) 0%, rgb(219,181,164) 20%, rgb(219,181,164) 50%, rgb(219,181,164) 77%, rgb(0,0,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg,  rgb(0,0,0) 0%,rgb(219,181,164) 20%,rgb(219,181,164) 50%,rgb(219,181,164) 77%,rgb(0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg,  rgb(0,0,0) 0%,rgb(219,181,164) 20%,rgb(219,181,164) 50%,rgb(219,181,164) 77%,rgb(0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	-webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+	 }
+.menu4 a {/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,dbb5a4+20,dbb5a4+50,dbb5a4+77,000000+100 */
+	background: rgb(0,0,0); /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  rgb(0,0,0) 0%, rgb(219,181,164) 20%, rgb(219,181,164) 50%, rgb(219,181,164) 77%, rgb(0,0,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg,  rgb(0,0,0) 0%,rgb(219,181,164) 20%,rgb(219,181,164) 50%,rgb(219,181,164) 77%,rgb(0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg,  rgb(0,0,0) 0%,rgb(219,181,164) 20%,rgb(219,181,164) 50%,rgb(219,181,164) 77%,rgb(0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	-webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+	 }
+
+.menu_close { position: absolute; top: 10px; right: 10px; z-index: 3; font-size: 30px; }
+
+
+/* container */
+.main1 { clear: both; padding-top: 20px; width: 100%; max-width: 340px;}
+.main1 h2 { font-size: 25px; font-family: "Noto Serif KR"; text-align: center; letter-spacing: 5px; margin-bottom: 10px; }
+.btn1, .btn2 { font-size: 15px; font-family: "굴림"; letter-spacing: -1px; font-weight: 600; color: #333; height: 50px; margin-right: 5px; border: none; border-radius: 5px;  }
+.btn1 { margin-left: 10%; }/* 원래는15% */
+
+
+
+.main2 { width: 100%; height: 100%; max-width: 340px; position: relative; margin-top: 20px; }
+.product1 { width: 100%;  float: left; margin-bottom: 10px; }
+.product2 { width: 100%; float: left; }
+.main2 img { width: 100%; height: 100%; min-width: 200px; }
+.main2 p { text-align: center; font-size: 1.2em; font-family: "굴림"; font-weight: 600;  }
+.product1 p { color: #282826; }
+.product2 p { color: #282826; } 
+.product1 p span, .product2 p span { display: block; margin-top: 25px; text-align: left; letter-spacing: 2px; line-height: 20px; }
+
+.main3 { clear: both; padding-top: 25px; width: 100%; max-width: 340px; overflow: hidden; position: relative; }
+ul.listdeco li { font-size: 20px; font-family: "NOto Serif KR"; color: #010101; margin-left: 5%; border-top: 1px solid #fff; }
+ul.listdeco li:last-child { border-bottom: 1px solid #fff; }
+ul.listdeco li a span { padding-left: 100px; position: absolute; left: 50%; }
+
+.main4 { clear: both; margin-top: 25px; width: 100%; max-width: 340px; overflow: hidden; margin-bottom: 30px; }
+.main4 figure { background-color: #fff; width: 80px; height: 80px; float: left; text-align: center; margin-left: 20%; padding-top: 10px; }
+.main4 figure figcaption { font-size: 15px; font-family: "NOto Serif KR"; }
+
+.main5 { clear: both; width: 310px;  height: 100%; /* height: 150px; */  position: relative; border: 1px solid #c2c2c2; border-radius: 10px; margin:5px auto; background-color: rgba(255,255,255,0.7); } /* width크기조정할것. 이상하게나옴 */
+.main5 address { font-style: normal; font-size: 12px; font-family: "돋움","Dotum",sans-serif; color: #8b8b8b; line-height: 20px; letter-spacing: 1px; padding-top: 5px; padding-left: 15px;}
+
+footer {  width: 100%; height: 100px; margin-bottom: 10px; padding-bottom: 10px; }
+footer p { font-size: 20px; font-family: "Noto Serif KR";font-weight: bold;  letter-spacing: -1px; line-height: 20px; text-align: center; margin-bottom: 10px;}
+footer p img { width: 35px; height: 35px; }
+footer div { width: 100%; padding-left: 13%;  }
+
+.ftf_btn { border: 1px solid #c2c2c2; font-size: 12px; font-family: "NOto Serif KR"; color: #8b8b8b; border-radius: 5px; height: 40px; width: 120px; margin-right: 5%; }
